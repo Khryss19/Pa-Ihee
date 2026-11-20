@@ -1,6 +1,5 @@
 import java.util.Date;
 
-// One record = one status change made by a maintenance staff member.
 public class MaintenanceRecord {
 
     private int recordID;
@@ -24,7 +23,6 @@ public class MaintenanceRecord {
         this.dateTime = new Date().toString(); // current date and time
     }
 
-    // Getters
     public int getRecordID() { return recordID; }
     public int getCrID() { return crID; }
     public int getFixtureID() { return fixtureID; }
@@ -33,8 +31,7 @@ public class MaintenanceRecord {
     public String getReason() { return reason; }
     public String getStaffName() { return staffName; }
     public String getDateTime() { return dateTime; }
-
-    // Setters
+    
     public void setRecordID(int recordID) { this.recordID = recordID; }
     public void setCrID(int crID) { this.crID = crID; }
     public void setFixtureID(int fixtureID) { this.fixtureID = fixtureID; }
