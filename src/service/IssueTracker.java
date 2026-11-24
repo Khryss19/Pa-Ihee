@@ -1,8 +1,8 @@
-package paihee.service;
+package service;
 
-import paihee.model.ComfortRoom;
-import paihee.model.Fixture;
-import paihee.model.IssueReport;
+import model.ComfortRoom;
+import model.Fixture;
+import model.IssueReport;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

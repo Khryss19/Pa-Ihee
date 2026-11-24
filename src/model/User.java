@@ -1,4 +1,4 @@
-package paihee.model;
+package model;
 
 import java.util.List;
 

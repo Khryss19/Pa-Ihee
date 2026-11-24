@@ -1,4 +1,4 @@
-package paihee.service;
+package service;
 
 /** NEW: a login account (SR Code + password) that belongs to one kind of user. */
 public class Account {

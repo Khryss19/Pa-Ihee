@@ -1,14 +1,14 @@
-package paihee.service;
+package service;
 
-import paihee.model.Administrator;
-import paihee.model.ComfortRoom;
-import paihee.model.Faculty;
-import paihee.model.Fixture;
-import paihee.model.IssueReport;
-import paihee.model.MaintenanceRecord;
-import paihee.model.MaintenanceStaff;
-import paihee.model.Student;
-import paihee.model.User;
+import model.Administrator;
+import model.ComfortRoom;
+import model.Faculty;
+import model.Fixture;
+import model.IssueReport;
+import model.MaintenanceRecord;
+import model.MaintenanceStaff;
+import model.Student;
+import model.User;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
