@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-// Administrator inherits from User.
+
 public class Administrator extends User {
 
     public Administrator(int userID, String name, String username, String password) {
