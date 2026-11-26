@@ -27,7 +27,7 @@ public class LoginView extends Screen {
         super(nav, system);
 
         roleBox.setPlaceholder("Choose a role");
-        roleBox.addItem(MainSystem.ROLE_STUDENT_EMPLOYEE);
+        roleBox.addItem(MainSystem.ROLE_STUDENT_FACULTY);
         roleBox.addItem(MainSystem.ROLE_STAFF);
         roleBox.addItem(MainSystem.ROLE_ADMIN);
         roleBox.setSelectedIndex(-1);
@@ -66,6 +66,9 @@ public class LoginView extends Screen {
         form.add(errorLabel);
         form.gap(12);
         form.add(loginButton);
+        form.gap(12);
+        form.add(Ui.linkButton("New here? Create an account", Theme.SMALL_BOLD, Theme.MUTED,
+        () -> nav.showScreen(Navigator.SIGNUP)));
 
         add(form, BorderLayout.NORTH);
     }

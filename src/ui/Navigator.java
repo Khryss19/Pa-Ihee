@@ -14,6 +14,8 @@ public interface Navigator {
     String QUEUE = "queue";
     String OVERVIEW = "overview";
     String LOGS = "logs";
+    String HISTORY = "history";
+    String SIGNUP = "signup";
 
     /** Shows a screen by name (see the constants above). */
     void showScreen(String name);

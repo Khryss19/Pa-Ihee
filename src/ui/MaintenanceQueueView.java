@@ -78,6 +78,10 @@ public class MaintenanceQueueView extends Screen {
         for (IssueReport report : pending) {
             content.addItem(buildCard(report), 12);
         }
+        RoundedButton historyButton = new RoundedButton("View Maintenance History");
+        historyButton.addActionListener(e -> nav.showScreen(Navigator.HISTORY));
+        content.addItem(historyButton, 12);
+        
         content.revalidate();
         content.repaint();
     }

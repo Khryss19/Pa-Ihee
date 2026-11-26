@@ -29,6 +29,7 @@ public class MainFrame extends JFrame implements Navigator {
     private final ReportSubmittedView reportSubmittedView;
     private final MaintenanceQueueView queueView;
     private final MaintenanceLogsView logsView;
+    private final MaintenanceHistoryView historyView;
 
     public MainFrame(MainSystem system) {
         super("Pa-Ihee");
@@ -40,6 +41,7 @@ public class MainFrame extends JFrame implements Navigator {
         reportSubmittedView = new ReportSubmittedView(this, system);
         queueView = new MaintenanceQueueView(this, system);
         logsView = new MaintenanceLogsView(this, system);
+        historyView = new MaintenanceHistoryView(this, system);
 
         register(LOGIN, new LoginView(this, system));
         register(DASHBOARD, dashboardView);
@@ -49,6 +51,9 @@ public class MainFrame extends JFrame implements Navigator {
         register(QUEUE, queueView);
         register(OVERVIEW, new FacilityOverviewView(this, system));
         register(LOGS, logsView);
+        register(HISTORY, historyView);
+        register(SIGNUP, new SignUpView(this, system));
+
 
         container.setPreferredSize(new Dimension(Theme.WINDOW_WIDTH, Theme.WINDOW_HEIGHT));
         setContentPane(container);
@@ -90,6 +95,7 @@ public class MainFrame extends JFrame implements Navigator {
         dashboardView.resetFilter();
         queueView.resetFilter();
         logsView.resetFilter();
+        historyView.resetFilter();
         showScreen(LOGIN);
     }
 

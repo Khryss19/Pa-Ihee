@@ -1,0 +1,15 @@
+DateTime,Building,Floor,Room,Fixture,Status,Reason,UpdatedBy
+2026-10-05T09:58,Building A,3,Men's CR,Stall 1,Under Maintenance,Needs cleaning,Staff B
+2026-10-05T10:20,Building A,3,Men's CR,Stall 1,Working,Cleaned and checked,Staff B
+2026-10-06T12:09,Building A,2,Men's CR,Urinal 3,Under Maintenance,Flush not working,Staff B
+2026-10-06T13:05,Building A,2,Men's CR,Urinal 3,Working,Repair done,Staff B
+2026-10-07T07:45,Building A,3,Women's CR,Stall 3,Under Maintenance,No water,Staff A
+2026-10-07T16:30,Building A,2,Women's CR,Stall 1,Under Maintenance,Pipe leak,Staff B
+2026-10-07T16:30,Building A,2,Women's CR,Stall 2,Under Maintenance,Pipe leak,Staff B
+2026-10-07T16:30,Building A,2,Women's CR,Stall 3,Under Maintenance,Pipe leak,Staff B
+2026-10-08T08:40,Building A,1,All Gender CR,Urinal 2,Under Maintenance,Flush not working,Staff A
+2026-10-08T08:40,Building A,1,All Gender CR,Urinal 2,Under Maintenance,Flush not working,Staff A
+2026-10-08T09:15,Building A,1,All Gender CR,Stall 1,Under Maintenance,Broken door lock,Staff A
+2026-10-08T09:15,Building A,1,All Gender CR,Stall 1,Under Maintenance,Broken door lock,Staff A
+2026-11-26T21:43:02.807560100,Building A,1,Women's CR,Stall 1,Problem Reported,"Broken Door - Paayus nmn, please lang",Aetherion Shindo (Student)
+2026-11-26T21:44:18.704085200,Building A,1,Women's CR,Stall 1,Working,Repaired: Broken Door,Jose Rizal

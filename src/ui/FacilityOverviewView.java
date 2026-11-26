@@ -66,6 +66,9 @@ public class FacilityOverviewView extends Screen {
         RoundedButton logsButton = new RoundedButton("View Maintenance Logs");
         logsButton.addActionListener(e -> nav.showScreen(Navigator.LOGS));
         content.addItem(logsButton, 12);
+        RoundedButton historyButton = new RoundedButton("View Maintenance History"); 
+        historyButton.addActionListener(e -> nav.showScreen(Navigator.HISTORY));   
+        content.addItem(historyButton, 10);
 
         content.revalidate();
         content.repaint();
